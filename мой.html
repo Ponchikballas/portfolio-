@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buldozzer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            font-size: 30px;
+            width: 100%;
+            height: 100vh;
+        }
+
+        [class^="box-"] {
+            color: aliceblue;
+            display: grid;
+            ;
+        }
+
+        @media (min-width: 2240px) {
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C D D D D D D"
+                    "C C C C C C D D D D D D"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+        
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+            color: #89a5e3;
+            
+        }
+
+
+        .box-2 {
+            grid-area: C;
+            background-color: #FFFADD;
+            color: #89a5e3;
+            justify-items: center;
+
+        }
+
+        .box-3 {
+            grid-area: D;
+            background-color: #FFFADD;
+            color: #89a5e3;
+            justify-items: auto;
+        }
+
+
+
+        .box-4 {
+            grid-area: G;
+            background-color: #FFFADD;
+            
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            left: 1300px;
+            top: 47px;
+            padding: 77px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .box-2 span{
+            position: relative;
+            text-align: center;
+            height: 30px;
+            top: 30px;
+        }
+        .box-3 span{
+           position: relative;
+          left: 550px;
+           height: 30px;
+           width: 450px;
+        }
+        img {
+            width: 700px;
+            height: 700px;
+            position: relative;
+            left: 1330px;
+            border-radius: 360px;
+            bottom: 100px;
+        }
+    }
+    @media (min-width: 1024px) and (max-width: 2439px) {
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C D D D D D D"
+                    "C C C C C C D D D D D D"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+        
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+            color: #89a5e3;
+            
+        }
+
+
+        .box-2 {
+            grid-area: C;
+            background-color: #FFFADD;
+            color: #89a5e3;
+            justify-items: center;
+
+        }
+
+        .box-3 {
+            grid-area: D;
+            background-color: #FFFADD;
+            color: #89a5e3;
+            justify-items: auto;
+        }
+
+
+
+        .box-4 {
+            grid-area: G;
+            background-color: #FFFADD;
+            
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            left: 550px;
+            top: 47px;
+            padding: 77px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .box-2 span{
+            position: relative;
+            text-align: center;
+            height: 30px;
+            top: 30px;
+        }
+        .box-3 span{
+           position: relative;
+          left: 300px;
+           height: 30px;
+           width: 450px;
+        }
+        img {
+            width: 550px;
+            height: 550px;
+            position: relative;
+            left: 650px;
+            border-radius: 360px;
+            bottom: 30px;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 425px) {
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C D D D D D D"
+                    "C C C C C C D D D D D D"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+        
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+            color: #89a5e3;
+            
+        }
+
+
+        .box-2 {
+            grid-area: C;
+            background-color: #FFFADD;
+            color: #89a5e3;
+            justify-items: center;
+
+        }
+
+        .box-3 {
+            grid-area: D;
+            background-color: #FFFADD;
+            color: #89a5e3;
+            justify-items: auto;
+        }
+
+
+
+        .box-4 {
+            grid-area: G;
+            background-color: #FFFADD;
+            
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            left: 55px;
+            top: 47px;
+            padding: 77px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .box-2 span{
+            position: relative;
+            text-align: center;
+            height: 30px;
+            top: 30px;
+        }
+        .box-3 span{
+           position: relative;
+          left: 30px;
+           height: 30px;
+           width: 45px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 65px;
+            border-radius: 360px;
+            bottom: 30px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <a href="абамне.html">About me</a>
+            <a href="скилы.html">Skills</a>
+            <a href="контакты.html">Contacts</a>
+        </div>
+
+        <div class="box-2">
+       <span>Buldozzer Triplesix</span> 
+        </div>
+
+        <div class="box-3">
+          <span>Code Master!
+            18 years old, Moscow</span> 
+        </div>
+        <div class="box-4"><img src="Ава.jpg" alt="wedfg"></div>
+
+    </div>
+</body>
+
+</html>

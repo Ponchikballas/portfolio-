@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+
+      font-size: 30px;
+      width: 100%;
+      height: 100vh;
+    }
+
+    [class^="box-"] {
+      color: aliceblue;
+      display: grid;
+      ;
+    }
+
+    @media (min-width: 2440px) {
+      .container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+          "A A A A A A A A A A A A"
+          "D D D D D D D D D D D D"
+          "D D D D D D D D D D D D"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+        ;
+      }
+    
+
+     .box-1 {
+      grid-area: A;
+      background-color: #FFFADD;
+      color: #89a5e3;
+      display: inline;
+     }
+
+     .box-2 {
+      grid-area: D;
+      background-color: #FFFADD;
+      color: #89a5e3;
+     }
+
+     .box-3 {
+      grid-area: G;
+      background-color: #FFFADD;
+      color: #89a5e3;
+
+     }
+
+
+     .box-1 a {
+      text-decoration: none;
+      position: relative;
+
+      top: 47px;
+      padding: 77px;
+      color: #89a5e3;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      left: 1400px;
+     }
+
+
+     .box-2 span {
+      position: relative;
+      top: 55px;
+      font-size: 60px;
+      color: #070707;
+      font-weight: bold;
+      font-family: Arial;
+      height: 100px;
+      width: 290px;
+      text-align: center;
+      color: #89a5e3;
+      left: 1650px;
+     }
+
+     .box-3 span {
+      position: relative;
+      bottom: 100px;
+      font-family: 'Gilroy-Medium';
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+      font-weight: lighter;
+      font-family: Arial;
+      color: #89a5e3;
+      height: 300px;
+      width: auto;
+     }
+    }
+    @media (min-width: 1024px) and (max-width:2439px) {
+      .container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+          "A A A A A A A A A A A A"
+          "D D D D D D D D D D D D"
+          "D D D D D D D D D D D D"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+        ;
+      }
+    
+
+     .box-1 {
+      grid-area: A;
+      background-color: #FFFADD;
+      color: #89a5e3;
+      display: inline;
+     }
+
+     .box-2 {
+      grid-area: D;
+      background-color: #FFFADD;
+      color: #89a5e3;
+     }
+
+     .box-3 {
+      grid-area: G;
+      background-color: #FFFADD;
+      color: #89a5e3;
+
+     }
+
+
+     .box-1 a {
+      text-decoration: none;
+      position: relative;
+
+      top: 47px;
+      padding: 77px;
+      color: #89a5e3;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      left: 600px;
+     }
+
+
+     .box-2 span {
+      position: relative;
+      top: 55px;
+      font-size: 60px;
+      color: #070707;
+      font-weight: bold;
+      font-family: Arial;
+      height: 100px;
+      width: 290px;
+      text-align: center;
+      color: #89a5e3;
+      left: 820px;
+     }
+
+     .box-3 span {
+      position: relative;
+      bottom: 100px;
+      font-family: 'Gilroy-Medium';
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+      font-weight: lighter;
+      font-family: Arial;
+      color: #89a5e3;
+      height: 300px;
+      width: auto;
+     }
+    }
+    @media (min-width: 320px) and (max-width:425px) {
+      .container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+          "A A A A A A A A A A A A"
+          "D D D D D D D D D D D D"
+          "D D D D D D D D D D D D"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+          "G G G G G G G G G G G G"
+        ;
+      }
+    
+
+     .box-1 {
+      grid-area: A;
+      background-color: #FFFADD;
+      color: #89a5e3;
+      display: inline;
+     }
+
+     .box-2 {
+      grid-area: D;
+      background-color: #FFFADD;
+      color: #89a5e3;
+     }
+
+     .box-3 {
+      grid-area: G;
+      background-color: #FFFADD;
+      color: #89a5e3;
+
+     }
+
+
+     .box-1 a {
+      text-decoration: none;
+      position: relative;
+
+      top: 47px;
+      padding: 77px;
+      color: #89a5e3;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      left: 35px;
+     }
+
+
+     .box-2 span {
+      position: relative;
+      top: 55px;
+      font-size: 60px;
+      color: #070707;
+      font-weight: bold;
+      font-family: Arial;
+      height: 100px;
+      width: 290px;
+      text-align: center;
+      color: #89a5e3;
+      left: 20px;
+     }
+
+     .box-3 span {
+      position: relative;
+      bottom: 100px;
+      font-family: 'Gilroy-Medium';
+      font-size: 29px;
+      line-height: 50px;
+      text-align: center;
+      font-weight: lighter;
+      font-family: Arial;
+      color: #89a5e3;
+      height: 300px;
+      width: auto;
+     }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box-1">
+      <a href="мой.html">Home</a>
+      <a href="скилы.html">Skills</a>
+      <a href="контакты.html">Contacts</a>
+    </div>
+    <div class="box-2"><span>About me</span></div>
+    <div class="box-3">
+      <span>
+
+        Перевет, я Никита - лучший программист среди всех! Занимаюсь разрабткой сайтов различных видов. Владею языком
+        программирования С++, Java Script.
+        Характер жесткий, не женат. Кредо по жизни "Дави анимешников и хохлов" (Есть исключения, но их мало)
+        <span>
+
+    </div>
+
+</body>
+
+</html>

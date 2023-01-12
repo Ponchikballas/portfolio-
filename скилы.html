@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            font-size: 30px;
+            width: 100%;
+            height: 100vh;
+        }
+
+        [class^="box-"] {
+            color: rgb(255, 255, 255);
+            display: grid;
+            ;
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C C C C C C C"
+                    "C C C C C C C C C C C C"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+        }
+
+        .box-3 {
+            grid-area: C;
+            background-color: #FFFADD;
+        }
+
+        .box-7 {
+            grid-area: G;
+            background-color: #FFFADD;
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            left: 320px;
+            top: 47px;
+            padding: 77px;
+            color: #6d6d6d;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .html {
+            position: absolute;
+            left: 620px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .css {
+            position: absolute;
+            left: 950px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .bootstr {
+            position: absolute;
+            left: 1280px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .javaskr {
+            position: absolute;
+            left: 1610px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .figma {
+            position: absolute;
+            left: 1940px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .C {
+            position: absolute;
+            left: 2270px;
+            top: 625px;
+            width: 180px;
+            height: 180px;
+        }
+
+        .html1 {
+            position: absolute;
+            left: 671px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .css1 {
+            position: absolute;
+            left: 1017px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .bootstr1 {
+            position: absolute;
+            left: 1320px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .javaskr1 {
+            position: absolute;
+            left: 1650px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .figma1 {
+            position: absolute;
+            left: 2000px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .C1 {
+            position: absolute;
+            left: 2335px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .topbar {
+            position: relative;
+            left: 950px;
+            width: 100px;
+            height: 5000px;
+        }
+
+        .box-7 p {
+            color: #89a5e3;
+        }
+
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+            padding: 77px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+.box-3 span{
+    
+        text-decoration: none;
+        position: relative;
+        top: 47px;
+       height: 40px;
+        color: #89a5e3;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        left: 1600px;
+        width: 100px;
+      
+}
+        }
+         @media (min-width: 1024px) and (max-width: 2439px) {
+            .container {
+                height: 100%;
+                
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                   "A A A A A A A A A A A A"
+                    "C C C C C C C C C C C C"
+                    "C C C C C C C C C C C C"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+            }
+            
+            .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+            width: 100%;
+        }
+
+        .box-3 {
+            grid-area: C;
+            background-color: #FFFADD;
+        }
+
+        .box-7 {
+            grid-area: G;
+            background-color: #FFFADD;
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+          
+            top: 47px;
+            padding: 77px;
+            color: #6d6d6d;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .html {
+            position: absolute;
+            left: 20px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .css {
+            position: absolute;
+            left: 350px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .bootstr {
+            position: absolute;
+            left: 680px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .javaskr {
+            position: absolute;
+            left: 1010px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .figma {
+            position: absolute;
+            left: 1340px;
+            top: 625px;
+            width: 170px;
+            height: 170px;
+        }
+
+        .C {
+            position: absolute;
+            left: 1670px;
+            top: 625px;
+            width: 180px;
+            height: 180px;
+        }
+
+        .html1 {
+            position: absolute;
+            left: 71px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .css1 {
+            position: absolute;
+            left: 417px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .bootstr1 {
+            position: absolute;
+            left: 720px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .javaskr1 {
+            position: absolute;
+            left: 1050px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .figma1 {
+            position: absolute;
+            left: 1400px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .C1 {
+            position: absolute;
+            left: 35px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .topbar {
+            position: relative;
+            left: 300px;
+            width: 100px;
+            height: 5000px;
+        }
+
+        .box-7 p {
+            color: #89a5e3;
+        }
+
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+            padding: 77px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+.box-3 span{
+    
+        text-decoration: none;
+        position: relative;
+        top: 47px;
+       height: 40px;
+        color: #89a5e3;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        left: 950px;
+        width: 100px;
+      
+        }
+     }
+     @media (min-width: 320px) and (max-width: 425px) {
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C C C C C C C"
+                    "C C C C C C C C C C C C"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+        }
+
+        .box-3 {
+            grid-area: C;
+            background-color: #FFFADD;
+        }
+
+        .box-7 {
+            grid-area: G;
+            background-color: #FFFADD;
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            left: 32px;
+            top: 47px;
+            padding: 77px;
+            color: #6d6d6d;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .html {
+            position: absolute;
+            left: 50px;
+            top: 300px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .css {
+            position: absolute;
+            left: 200px;
+            top: 300px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .bootstr {
+            position: absolute;
+            left: 200px;
+            top: 500px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .javaskr {
+            position: absolute;
+            left: 50px;
+            top: 500px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .figma {
+            position: absolute;
+            left: 50px;
+            top: 700px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .C {
+            position: absolute;
+            left: 200px;
+            top: 700px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .html1 {
+            position: absolute;
+            left: 215px;
+            top: 420px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .css1 {
+            position: absolute;
+            left: 75px;
+            top: 420px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .bootstr1 {
+            position: absolute;
+            left: 205px;
+            top: 620px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .javaskr1 {
+            position: absolute;
+            left: 50px;
+            top: 620px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .figma1 {
+            position: absolute;
+            left: 65px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .C1 {
+            position: absolute;
+            left: 225px;
+            top: 820px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 14px;
+            text-align: center;
+            color: #707070;
+        }
+
+        .topbar {
+            position: relative;
+            left: 0px;
+            width: 100px;
+            height: 5000px;
+        }
+
+        .box-7 p {
+            color: #89a5e3;
+        }
+
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+            padding: 77px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+.box-3 span{
+    
+        text-decoration: none;
+        position: relative;
+        top: 47px;
+       height: 40px;
+        color: #89a5e3;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        left: 115px;
+        width: 100px;
+      
+}
+     }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <span class="topbar">
+                <a href="мой.html">Home</a>
+                <a href="абамне.html">About me</a>
+                <a href="контакты.html">Contacts</a>
+            </span>
+        </div>
+        <div class="box-3"> <span>Skills</span>
+        </div>
+
+        <div class="box-7">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html" class="html">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css" class="css">
+            <img src="https://raw.githubusercontent.com/themedotid/bootstrap-icon/HEAD/docs/bootstrap-icon-css.png"
+                alt="bootstr" class="bootstr">
+            <img src="https://lazyhack.net/wp-content/uploads/2022/04/javascript_logo-768x873-1.png" alt="javaskr"
+                class="javaskr">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="figma" class="figma">
+            <img src="https://cdn-icons-png.flaticon.com/512/2306/2306030.png" alt="C" class="C">
+            <p class="html1">HTML5</p>
+            <p class="css1">CSS</p>
+            <p class="bootstr1">Bootstrap</p>
+            <p class="javaskr1">JavaScript</p>
+            <p class="figma1">Figma</p>
+            <p class="C1">C++</p>
+        </div>
+
+</body>
+
+</html>

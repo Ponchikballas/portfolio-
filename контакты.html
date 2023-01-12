@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            font-size: 30px;
+            width: 100%;
+            height: 100vh;
+        }
+
+        [class^="box-"] {
+            color: rgb(255, 255, 255);
+            display: grid;
+            ;
+        }
+
+        @media (min-width: 2440px) {
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C C C C C C C"
+                    "C C C C C C C C C C C C"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+        }
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+        }
+
+        .box-3 {
+            grid-area: C;
+            background-color: #FFFADD;
+        }
+
+        .box-7 {
+            grid-area: G;
+            background-color: #FFFADD;
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            left: 320px;
+            top: 47px;
+            padding: 77px;
+            color: #6d6d6d;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .topbar {
+            position: relative;
+            left: 950px;
+            width: 100px;
+            height: 5000px;
+        }
+
+        .box-7 p {
+            color: #89a5e3;
+        }
+
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+          
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            left: 450px;
+        }
+
+        .box-3 span {
+
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+            height: 40px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            left: 1550px;
+            width: 250px;
+         
+
+        }
+  span .telega{
+      
+  position: absolute;
+  top:  570px;
+  left: 1800px; 
+    }
+    span  .vkontake {
+  position: absolute;
+  top:  570px;
+  left: 1200px;
+}
+@media (min-width: 1024px) and (max-width:2439px) {
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C C C C C C C"
+                    "C C C C C C C C C C C C"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+        
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+        }
+
+        .box-3 {
+            grid-area: C;
+            background-color: #FFFADD;
+        }
+
+        .box-7 {
+            grid-area: G;
+            background-color: #FFFADD;
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            left: 320px;
+            top: 47px;
+            padding: 77px;
+            color: #6d6d6d;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .topbar {
+            position: relative;
+            left: 550px;
+            width: 100px;
+            height: 5000px;
+        }
+
+        .box-7 p {
+            color: #89a5e3;
+        }
+
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+          
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            left: 150px;
+        }
+
+        .box-3 span {
+
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+            height: 40px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            left: 850px;
+            width: 250px;
+         
+
+        }
+  span .telega{
+      
+  position: absolute;
+  top:  570px;
+  left: 1000px; 
+    }
+    span  .vkontake {
+  position: absolute;
+  top:  570px;
+  left: 600px;
+}
+}
+@media (min-width: 320px) and (max-width: 425px){
+            .container {
+                height: 100%;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(7, 1fr);
+                grid-template-areas:
+                    "A A A A A A A A A A A A"
+                    "C C C C C C C C C C C C"
+                    "C C C C C C C C C C C C"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                    "G G G G G G G G G G G G"
+                ;
+            }
+        
+
+        .box-1 {
+            grid-area: A;
+            background-color: #FFFADD;
+            display: inline;
+        }
+
+        .box-3 {
+            grid-area: C;
+            background-color: #FFFADD;
+        }
+
+        .box-7 {
+            grid-area: G;
+            background-color: #FFFADD;
+            height: 100%;
+        }
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            /* left: 320px; */
+            /* top: 47px;
+            padding: 77px; */
+            color: #6d6d6d;
+            right: 300px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .topbar {
+            position: relative;
+            /* left: 950px; */
+            width: 100px;
+            
+        }
+
+        .box-7 p {
+            color: #89a5e3;
+        }
+
+        .box-1 a {
+            text-decoration: none;
+            position: relative;
+            /* top: 47px; */
+          
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            left: -600px;
+            
+        }
+
+        .box-3 span {
+
+            text-decoration: none;
+            position: relative;
+            top: 47px;
+            height: 40px;
+            color: #89a5e3;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+             left: 15px; 
+            width: 100px;
+         
+
+        }
+  span .telega{
+      
+  position: absolute;
+  /* top:  570px; */
+  left: 25px; 
+    }
+    span  .vkontake {
+  position: absolute;
+   top:  300px;
+  left: 12px; 
+}
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <span class="topbar">
+                <a href="мой.html">Home</a>
+                <a href="абамне.html">About me</a>
+            </span>
+        </div>
+        <div class="box-3"> <span>Contact me</span>
+        </div>
+
+        <div class="box-7">
+           <span><a  href="https://vk.com/swwwaaaaaag" target="_blank"><img
+                    src="https://cdn-icons-png.flaticon.com/512/25/25684.png" alt="vk" width="300px" height="300px" class="vkontake"></a></span>
+            <span><a  href="https://t.me/ponchikballas" target="_blank"><img
+                    src="https://cdn-icons-png.flaticon.com/512/87/87413.png" alt="lll" width="300px" height="300px" class="telega"></a></span>
+        </div>
+    </div>
+</body>
+
+</html>
